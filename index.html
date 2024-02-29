@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>บริษัท วิสต้า อินโน จำกัด</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.w3-top{
+background-image: url("image/Screenshot 2023-12-27 162027.png");
+}
+
+.w3-bar-item {  
+  text-align: center;
+  font-size: 25px;
+  font-family : "Athiti";
+}
+
+.w3-bar {  
+  text-align: center;
+}
+
+.w3-bar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #37a9b8;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.w3-bar .search-container button:hover {
+  background: #ccc;
+}
+
+.w3-bar .search-container {
+  float: right;
+}
+
+.w3-bar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.bgimg-1 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('image/312370757_650853076419312_3031638899439047053_n.jpg');
+  min-height: 100%;
+}
+
+.w3-row-padding {
+  background-image: url('image/Screenshot 2023-12-27 162027.png');
+}
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+  cursor: pointer;
+}
+
+h3 {
+  text-align: center;
+  color: #000000;
+  font-family : "Athiti";
+  font-size: 35px;
+}
+
+h4 {
+  text-align: center;
+  color: #000000;
+  font-family : "Athiti";
+  font-size: 40px;
+}
+
+p {
+  text-align: center;
+  color: #000000;
+  font-family : "Athiti";
+  font-size: 18px;
+}
+
+em {
+  text-align: center;
+  color: #000000;
+  font-family : "Athiti";
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 608px;
+  background-image: url('image/Screenshot 2023-12-27 162027.png');
+}
+
+.column p{
+  text-align: center;
+  color: #000000;
+  font-family : "Athiti";
+  font-size: 17px;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 608px;
+  background-image: url('image/Screenshot 2023-12-27 162027.png');
+}
+
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 0 25px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height: 650px;
+}
+
+.card h3{
+  text-align: center;
+  color: #000000;
+  font-family : "Athiti";
+  font-size: 25px;
+}
+
+.column3 {
+  float: left;
+  width: 25%;
+  height: 200px;
+}
+
+.column4 {
+  float: left;
+  width: 25%;
+  height: 400px;
+  padding: 25px;
+}
+
+.column4 h3{
+  text-align: center;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 25px;
+}
+
+.column4 p{
+  text-align: left;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 20px;
+}
+
+.column4 {
+  background-image: url('image/Screenshot 2023-12-27 162027.png');
+}
+
+.column5 {
+  float: left;
+  width: 25%;
+  height: 400px;
+  padding: 25px;
+}
+
+.column5 h3{
+  text-align: center;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 25px;
+}
+
+.column5 p{
+  text-align: left;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 20px;
+}
+
+.column5 {
+  background-image: url('image/Screenshot 2023-12-27 162027.png');
+}
+
+.column5 img{
+  display: block;
+  margin: auto;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1700px) {
+  .column {
+  height: 548px;
+  }
+  .column1 {
+  height: 548px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .column {
+  height: 515px;
+  }
+  .column1 {
+  height: 515px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .column {
+  height: 480px;
+  }
+  .column1 {
+  height: 480px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .column {
+  height: 450px;
+  }
+  .column img{
+  width:30%;
+  }
+  .column1 {
+  height: 450px;
+  }
+  .card p{
+  font-size: 16px;
+  }
+  .card h3{
+  font-size: 20px;
+  }
+ .card {
+  height: 600px;
+  }
+  .w3-top a{
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .column {
+  height: 420px;
+  }
+  .column1 {
+  height: 420px;
+  }
+  .column3 h3{
+    font-size: 20px;
+  }
+  .column3 {
+  height: 170px;
+  }
+  .w3-top img {
+    width : 100px;
+    height : 45px;
+  }
+  .w3-top a{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .column {
+  height: 390px;
+  }
+  .column1 {
+  height: 390px;
+  }
+  .column4 h3{
+  text-align: center;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 20px;
+  }
+  .column4 p{
+  text-align: left;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 17px;
+  }
+  .column4 {
+  height: 330px;
+  }
+  .column5 h3{
+  text-align: center;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 20px;
+  }
+  .column5 p{
+  text-align: left;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 17px;
+  }
+  .column5 {
+  height: 330px;
+  }
+  .w3-top a{
+    font-size: 16.5px;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .column {
+  height: 370px;
+  }
+  .column p{
+    font-size: 15px;
+  }
+  .column1 {
+  height: 370px;
+  }
+  .card p{
+  font-size: 15px;
+  }
+  .card h3{
+  font-size: 19px;
+  }
+  .column3 {
+  height: 150px;
+  }
+  .w3-top a{
+    font-size: 20px;
+  }
+  .w3-bar .search-container button {
+  display: none;
+  }
+  .w3-bar .search-container button:hover {
+  display: none;
+  }
+  .w3-bar .search-container {
+  display: none;
+  }
+  .w3-bar input[type=text] {
+  display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .column {
+  height: 340px;
+  }
+  .column1 {
+  height: 340px;
+  }
+  .column4 {
+    width: 50%;
+    display: block;
+    height: 250px;
+  }
+  .column5 {
+    width: 50%;
+    display: block;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .w3-top img {
+    width : 80px;
+    height : 40px;
+  }
+  .column {
+    width:40%;
+  }
+  .column img{
+    width:40%;
+  }
+  .column h{
+    font-size: 15px;;
+  }
+  .column1 {
+    width:60%;
+  }
+  .column2 {
+    width: 100%;
+    display: block;
+    height : 650px;
+  }
+  .column2 img{
+    width: 60%;
+  }
+  .card p{
+  font-size: 20px;
+  }
+  .card h3{
+  font-size: 25px;
+  }
+  .w3-top a{
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .w3-top a{
+    font-size: 14.3px;
+  }
+  .w3-top img {
+    width : 60px;
+    height : 35px;
+  }
+  .column {
+    width: 100%;
+    display: block;
+    height : 500px;
+  }
+  .column h3{
+    font-size: 25px;;
+  }
+  .column p{
+    font-size: 18px;;
+  }
+  .column1 {
+    width: 100%;
+    display: block;
+    height : 510px;
+  }
+  .column2 {
+    width: 100%;
+    display: block;
+    height : 520px;
+  }
+  h4 {
+    margin-top:150px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .w3-top a{
+    font-size: 10.8px;
+  }
+  .w3-top img {
+    width : 54px;
+    height : 32px;
+  }
+  .column {
+    height : 500px;
+  }
+  .column1 {
+    height : 450px;
+  }
+  .column3 h3{
+    font-size: 15px;;
+  }
+  .column2 {
+    height : 550px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .w3-top a{
+    font-size: 20px;
+  }
+  .w3-top img {
+    width : 80px;
+    height : 40px;
+  }
+  .column {
+    height : 450px;
+  }
+  .column1 {
+    height : 370px;
+  }
+  .column3 {
+  height: 100px;
+  }
+  .column2 {
+    height : 580px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .column {
+    height : 420px;
+  }
+  .column1 {
+    height : 330px;
+  }
+}
+
+</style>
+</head>
+<body>
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu" style="color:#ffffff">
+      <i class="fa fa-bars"></i>
+    </a>
+	  <a href="index.html" class="w3-bar-item w3-button"><img src="image/111.png" alt="Flowers in Chania" width="120" height="50"></a>
+    <a href="index.html" class="w3-bar-item w3-button active" style="color:#ffffff">หน้าแรก</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small" style="color:#ffffff">เกี่ยวกับเรา</a>
+    <a href="Our Work.html" class="w3-bar-item w3-button w3-hide-small" style="color:#ffffff">ผลงานของเรา</a>
+    <a href="Our Products - Copy.html" class="w3-bar-item w3-button w3-hide-small" style="color:#ffffff">ผลิตภัณฑ์ของเรา</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small" style="color:#ffffff">กิจกรรมของเรา</a>
+	  <a href="#" class="w3-bar-item w3-button w3-hide-small" style="color:#ffffff">ติดต่อเรา</a>
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </div>
+
+  <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+    <a href="about.html" class="w3-bar-item w3-button" onclick="toggleFunction()" style="color:#ffffff">เกี่ยวกับเรา</a>
+    <a href="Our Work.html" class="w3-bar-item w3-button" onclick="toggleFunction()" style="color:#ffffff">ผลงานของเรา</a>
+	  <a href="Our Products - Copy.html" class="w3-bar-item w3-button" onclick="toggleFunction()" style="color:#ffffff">ผลิตภัณฑ์ของเรา</a>
+    <a href="#" class="w3-bar-item w3-button" onclick="toggleFunction()" style="color:#ffffff">กิจกรรมของเรา</a>
+	  <a href="#" class="w3-bar-item w3-button" onclick="toggleFunction()" style="color:#ffffff">ติดต่อเรา</a>
+  </div>
+</div>
+
+<script>
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+  
+  // Change style of navbar on scroll
+  window.onscroll = function() {myFunction()};
+  function myFunction() {
+      var navbar = document.getElementById("myNavbar");
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-black";
+      } else {
+          navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-black", "");
+      }
+  }
+  
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function toggleFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+      } else {
+          x.className = x.className.replace(" w3-show", "");
+      }
+  }
+</script>
+
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">VISTA INNO </span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center"><b>เกี่ยวกับเรา</b></h3>
+  <p class="w3-center"><b><em>บริษัท วิสต้า อินโน จำกัด</em></b></p>
+  <p><b>เป็นบริษัทที่ผลิตสารเคลือบพื้นผิวและเคมีภัณฑ์ก่อสร้าง อาทิ งานเคลือบพื้นผิวและงานพื้นที่ต่างๆ ระบบงานกันซึม สารเคมีเคลือบปกป้อง สำหรับงานเฉพาะ และงานเคลือบสีสนามกีฬา บริษัทเราเริ่มมีการก่อตั้งขึ้นเมื่อ พ.ศ.2551 โดยผู้บริหารซึ่งเป็นนักเคมีที่มีประสบการณ์มามากกว่า 15 ปี ซึ่งเล็งเห็นถึงความสำคัญของสารเคลือบพื้นผิว ที่มีประโยชน์ต่ออุตสาหกรรม ที่มีการเจริญเติบโตขึ้นตลอดเวลา</b></p>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h3><b style="color:#ffffff">วิสัยทัศน์ของเรา</b></h3>
+		<p style="color:#ffffff">มุ่งมั่นในการผลิตสารเคลือบผิวที่มีคุณภาพ สามารถตอบโจทย์ความต้องการของลูกค้าได้อย่างตรงเป้าหมาย</p>
+		<p><a href="Our Products - Copy.html" class="w3-button w3-blue"><i class="fa fa-th"> </i> ผลิตภัณฑ์ของเรา</a></p>
+		<center><img class="w3-image w3-round-large" src="image/Wannarak-สัมภาษณ์-2.png" alt="Buildings" width="50%"></center>
+  </div>
+  <div class="column1">
+    <img src="image/photo.png" alt="Buildings" width="100%">
+  </div>
+</div>
+
+<h3 class="w3-center"><b>ข่าวสารและกิจกรรม</b></h3>
+
+<div class="row">
+  <div class="column2">
+    <div class="card">
+      <img class="w3-image w3-round-large" src="image/359518400_851942372977047_7734494617162348793_n.jpg" alt="Buildings" width="100%">
+      <h3><b>อบรมหลักสูตร ปฐมพยาบาลเบื้องต้น ประจำปี 2566</b></h3>
+      <p>เมื่อวันพุธที่ 12 ก.ค. 2566 ที่ผ่านมา บริษัท วิสต้า อินโน จำกัด ได้จัดอบรมหลักสูตร "การปฐมพยาบาลเบื้องต้น ประจำปี 2566" ให้แก่พนักงาน ด้วยตระหนักถึง การให้ความช่วยเหลือผู้บาดเจ็บในสถานการณ์ฉุกเฉินที่สามารถเกิดขึ้นได้ตลอดเวลา ซึ่งต้องใช้ความรู้เฉพาะทางและการตัดสินใจที่เหมาะสมในสถานการณ์ที่เกิดขึ้น เพื่อช่วยเหลือก่อนส่งเข้ารับการรักษาในสถานพยาบาล</p>
+    </div>
+  </div>
+
+  <div class="column2">
+    <div class="card">
+      <img class="w3-image w3-round-large" src="image/336330987_1904549799896881_7917605766224267514_n.jpg" alt="Buildings" width="100%">
+      <h3><b>พาลูกค้าเที่ยว แทนคำขอบคุณ</b></h3>
+      <p>เราเก็บภาพบรรยากาศกิจกรรมความสนุก ความสุข รอยยิ้มของกรุ๊ปที่ 2 ทริปเมืองฮอกไกโด ประเทศญี่ปุ่นมาฝากค่ะ สำหรับกิจกรรม วิสต้า อินโน “ พาลูกค้าเที่ยว แทนคำขอบคุณ ” ของเราได้จบลงแล้วนะคะ ✈️✈️🙏</p>
+      <br>
+      <br>
+    </div>
+  </div>
+  
+  <div class="column2">
+    <div class="card">
+      <img class="w3-image w3-round-large" src="image/LINE_ALBUM_อบรมดับเพลิง 2023_๒๔๐๑๐๓_1.jpg" alt="Buildings" width="100%">
+      <h3><b>อบรมหลักสูตร ดับเพลิงเบื้องต้น ประจำปี 2566</b></h3>
+      <p>เมื่อวันพุธที่ 15 พฤศจิกายน 2566 ที่ผ่านมาบริษัท วิสต้า อินโน จำกัด ได้คำนึงถึงอันตรายร้ายแรงที่เกิดขึ้นจากอัคคีภัยจึงจัดให้มีการฝึกอบรมดับเพลิงขั้นต้นและฝึกซ้อมอพยพหนีไฟประจำปี เพื่อเป็นการป้องกันและลดการสูญเสียจากเหตุเพลิงไหม้ และให้พนักงานทราบขั้นตอนการปฎิบัติเมื่อเกิดเหตุเพลิงไหม้</p>
+    <br>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <h4><b>ติอต่อเรา</b></h4>
+  <div class="column3">
+      <center><img class="w3-image w3-round-large" src="image/facebook-logo-1_icon-icons.com_73573.png" alt="Buildings" width="25%"></center>
+      <h3>VISTA INNO Thailand</h3>
+  </div>
+
+  <div class="column3">
+      <center><img class="w3-image w3-round-large" src="image/iconfinder-social-media-applications-5line-4102577_113787.png" alt="Buildings" width="25%"></center>
+      <h3>VISTA INNO Thailand</h3>
+  </div>
+  
+  <div class="column3">
+      <center><img class="w3-image w3-round-large" src="image/phone-volume_icon-icons.com_56474.png" alt="Buildings" width="25%"></center>
+      <h3>064-561-4505</h3>
+  </div>
+  
+  <div class="column3">
+      <center><img class="w3-image w3-round-large" src="image/email-2_icon-icons.com_65197.png" alt="Buildings" width="25%"></center>
+      <h3>vistainno_marketing@hotmail.com</h3>
+  </div>
+</div>
+
+<div class="row1">
+  <div class="column4">
+    <h3>เกี่ยวกับวิสต้า อินโน</h3>
+    <p><a href="#"> - โปรโมชั่น</a></p>
+    <p><a href="#"> - ข่าวสารและกิจกรรม</a><p>
+    <p><a href="#"> - ติดต่อเรา</a></p>
+  </div>
+  <div class="column4">
+    <h3>อื่นๆ วิสต้า อินโน</h3>
+    <p><a href="ดาวโหลดเอกสาร.html"> - ดาวโหลดเอกสาร</a></p>
+    <p><a href="#"> - วิดีโอแนะนำผลิตภัณฑ์</a><p>
+    <p><a href="#"> - วิดีโอการใช้งานผลิตภัณฑ์</a></p>
+  </div>
+  <div class="column5">
+    <h3>ติดตามเรา</h3>
+    <p><i class="fa fa-facebook-official w3-hover-opacity"><a href="https://www.facebook.com/vistainnothailand?locale=th_TH" style="text-decoration: none;" target="_blank"> &nbsp;VISTA INNO Thailand </a></i><p>
+    <p> <i class="fa fa-youtube w3-hover-opacity"><a href="https://youtube.com/@vistainnoepoxycoating3210?si=lFcbUeIB7TH1X-La" style="text-decoration: none;" target="_blank"> &nbsp;VISTA INNO Thailand</a> </i></p>
+  </div>
+  <div class="column5">
+    <h3>บริษัท วิสต้า อินโน จำกัด</h3>
+    <p><i class="fa fa-map-marker w3-hover-opacity"><a href="https://www.google.com/maps/search/%E0%B8%A7%E0%B8%B4%E0%B8%AA%E0%B8%95%E0%B9%89%E0%B8%B2+%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B9%82%E0%B8%99/@13.5527745,100.6804598,17z?entry=ttu" style="text-decoration: none;" target="_blank"> &nbsp;ที่อยู่: 881 หมู่ที่ 2 นิคมอุตสาหกรรมบางปูเหนือ ตำบล แพรกษา อำเภอเมืองสมุทรปราการ สมุทรปราการ 10280 </a></i></p>
+    <a href="https://www.google.com/maps/search/%E0%B8%A7%E0%B8%B4%E0%B8%AA%E0%B8%95%E0%B9%89%E0%B8%B2+%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B9%82%E0%B8%99/@13.5527745,100.6804598,17z?entry=ttu" style="text-decoration: none;" target="_blank"><img class="w3-image w3-round-large" src="image/Screenshot 2024-01-03 163232.png" alt="Buildings" width="80%"></a>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>บริษัท วิสต้า อินโน จำกัด</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.w3-top{
+background-image: url("image/Screenshot 2023-12-27 162027.png");
+}
+
+.w3-bar-item {  
+  text-align: center;
+  font-size: 25px;
+  font-family : "Athiti";
+}
+
+.w3-bar {  
+  text-align: center;
+}
+
+.w3-bar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #37a9b8;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.w3-bar .search-container button:hover {
+  background: #ccc;
+}
+
+.w3-bar .search-container {
+  float: right;
+}
+
+.w3-bar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.w3-row-padding {
+  background-image: url('image/Screenshot 2023-12-27 162027.png');
+}
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+  cursor: pointer;
+}
+
+h2 {
+  text-align: center;
+  color: #000000;
+  font-family : "Athiti";
+  font-size: 35px;
+  margin-top:80px
+}
+
+h3 {
+  text-align: center;
+  color: #000000;
+  font-family : "Athiti";
+  font-size: 35px;
+}
+
+h4 {
+  text-align: center;
+  color: #000000;
+  font-family : "Athiti";
+  font-size: 27px;
+}
+
+span {
+    font-family : "Athiti";
+    font-size: 25px;
+}
+
+p {
+  text-align: left;
+  color: #000000;
+  font-family : "Athiti";
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.column4 {
+  float: left;
+  width: 25%;
+  height: 400px;
+  padding: 25px;
+}
+
+.column4 h3{
+  text-align: center;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 25px;
+}
+
+.column4 p{
+  text-align: left;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 20px;
+}
+
+.column4 {
+  background-image: url('image/Screenshot 2023-12-27 162027.png');
+}
+
+.column5 {
+  float: left;
+  width: 25%;
+  height: 400px;
+  padding: 25px;
+}
+
+.column5 h3{
+  text-align: center;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 25px;
+}
+
+.column5 p{
+  text-align: left;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 20px;
+}
+
+.column5 {
+  background-image: url('image/Screenshot 2023-12-27 162027.png');
+}
+
+.column5 img{
+  display: block;
+  margin: auto;
+}
+
+.row {
+    margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 80%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  display: block;
+  margin: auto;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 80%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 1400px) {
+  .w3-top a{
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .w3-top img {
+    width : 100px;
+    height : 45px;
+  }
+  .w3-top a{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .column4 h3{
+  text-align: center;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 20px;
+  }
+  .column4 p{
+  text-align: left;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 17px;
+  }
+  .column4 {
+  height: 330px;
+  }
+  .column5 h3{
+  text-align: center;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 20px;
+  }
+  .column5 p{
+  text-align: left;
+  color: #ffffff;
+  font-family : "Athiti";
+  font-size: 17px;
+  }
+  .column5 {
+  height: 330px;
+  }
+  .w3-top a{
+    font-size: 16.5px;
+    margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .w3-top a{
+    font-size: 20px;
+  }
+  .w3-bar .search-container button {
+  display: none;
+  }
+  .w3-bar .search-container button:hover {
+  display: none;
+  }
+  .w3-bar .search-container {
+  display: none;
+  }
+  .w3-bar input[type=text] {
+  display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .column4 {
+    width: 50%;
+    display: block;
+    height: 250px;
+  }
+  .column5 {
+    width: 50%;
+    display: block;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .w3-top a{
+    font-size: 17px;
+  }
+  .w3-top img {
+    width : 80px;
+    height : 40px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .w3-top a{
+    font-size: 14.3px;
+  }
+  .w3-top img {
+    width : 60px;
+    height : 35px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .w3-top a{
+    font-size: 10.8px;
+  }
+  .w3-top img {
+    width : 54px;
+    height : 32px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .w3-top a{
+    font-size: 20px;
+  }
+  .w3-top img {
+    width : 80px;
+    height : 40px;
+  }
+  h4 {
+  font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+    h4 {
+  font-size: 22px;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu" style="color:#ffffff">
+        <i class="fa fa-bars"></i>
+        </a>
+        <a href="index.html" class="w3-bar-item w3-button"><img src="image/111.png" alt="Flowers in Chania" width="120" height="50"></a>
+        <a href="index.html" class="w3-bar-item w3-button" style="color:#ffffff">หน้าแรก</a>
+        <a href="about.html" class="w3-bar-item w3-button w3-hide-small" style="color:#ffffff">เกี่ยวกับเรา</a>
+        <a href="Our Work.html" class="w3-bar-item w3-button w3-hide-small" style="color:#ffffff">ผลงานของเรา</a>
+        <a href="Our Products - Copy.html" class="w3-bar-item w3-button w3-hide-small" style="color:#ffffff">ผลิตภัณฑ์ของเรา</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small" style="color:#ffffff">กิจกรรมของเรา</a>
+        <a href="#" class="w3-bar-item w3-button w3-hide-small" style="color:#ffffff">ติดต่อเรา</a>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+    </div>
+      
+    <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+        <a href="index.html" class="w3-bar-item w3-button" onclick="toggleFunction()" style="color:#ffffff">หน้าแรก</a>
+        <a href="about.html" class="w3-bar-item w3-button" onclick="toggleFunction()" style="color:#ffffff">เกี่ยวกับเรา</a>
+        <a href="Our Work.html" class="w3-bar-item w3-button" onclick="toggleFunction()" style="color:#ffffff">ผลงานของเรา</a>
+        <a href="#" class="w3-bar-item w3-button" onclick="toggleFunction()" style="color:#ffffff">กิจกรรมของเรา</a>
+        <a href="#" class="w3-bar-item w3-button" onclick="toggleFunction()" style="color:#ffffff">ติดต่อเรา</a>
+    </div>
+</div>
+      
+<script>
+    // Modal Image Gallery
+        function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+        }
+          
+    // Change style of navbar on scroll
+        window.onscroll = function() {myFunction()};
+        function myFunction() {
+        var navbar = document.getElementById("myNavbar");
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-black";
+        } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-black", "");
+        }
+        }
+          
+    // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        } else {
+        x.className = x.className.replace(" w3-show", "");
+        }
+        }
+</script>
+
+<h2>ดาวน์โหลดเอกสาร</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<center><table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">ชื่อเอกสาร</th>
+    <th style="width:40%;">ดาวน์โหลดเอกสาร</th>
+  </tr>
+  <tr>
+    <td><a href="PDF/TERRAFLEX/TERRAFLEX - (TH).pdf" target="_blank">TERRAFLEX (TDS) (TH)</a></td>
+    <td><a href="PDF/TERRAFLEX/TERRAFLEX - (TH).pdf" target="_blank">ดาวน์โหลด</td></a>
+  </tr>
+  <tr>
+    <td><a href="PDF/TERRAFLEX/Terraflex (EN)_Rev.01 2019.pdf" target="_blank">TERRAFLEX (TDS) (EN)</a></td>
+    <td><a href="PDF/TERRAFLEX/Terraflex (EN)_Rev.01 2019.pdf" target="_blank">ดาวน์โหลด</a></td>
+  </tr>
+  <tr>
+    <td><a href="PDF/TERRAFLEX/SDS GHS_T_Terraflex Part A_Rev.01 2019.pdf" target="_blank">TERRAFLEX_PART-A (MSDS) (TH)</a></td>
+    <td><a href="PDF/TERRAFLEX/SDS GHS_T_Terraflex Part A_Rev.01 2019.pdf" target="_blank">ดาวน์โหลด</a></td>
+  </tr>
+  <tr>
+    <td><a href="PDF/TERRAFLEX/SDS GHS_T_Terraflex Part B_Rev.01 2019.pdf" target="_blank">TERRAFLEX_PART-B (MSDS) (TH)</a></td>
+    <td><a href="PDF/TERRAFLEX/SDS GHS_T_Terraflex Part B_Rev.01 2019.pdf" target="_blank">ดาวน์โหลด</a></td>
+  </tr>
+  <tr>
+    <td><a href="PDF/TERRAFLOOR-CH100/Terrafloor-CH100(TH).pdf" target="_blank">TERRAFLOOR-CH100 (TDS) (TH)</a></td>
+    <td><a href="PDF/TERRAFLOOR-CH100/Terrafloor-CH100(TH).pdf" target="_blank">ดาวน์โหลด</a></td>
+  </tr>
+  <tr>
+    <td><a href="PDF/terrafloor-ct1/Terrafloor-CT1(TH)_(1).pdf" target="_blank">TERRAFLOOR-CT1 (TDS) (TH)</a></td>
+    <td><a href="PDF/terrafloor-ct1/Terrafloor-CT1(TH)_(1).pdf" target="_blank">ดาวน์โหลด</a></td>
+  </tr>
+  <tr>
+    <td><a href="PDF/terrafloor-ct1/Terrafloor-CT1 (EN)_Rev.02 2023.pdf" target="_blank">TERRAFLOOR-CT1 (TDS) (EN)</a></td>
+    <td><a href="PDF/terrafloor-ct1/Terrafloor-CT1 (EN)_Rev.02 2023.pdf" target="_blank">ดาวน์โหลด</a></td>
+  </tr>
+  <tr>
+    <td><a href="PDF/terrafloor-ct1/MSDS_Terrafloor-CT1 Part A_TH.pdf" target="_blank">TERRAFLOOR-CT1_PART-A (MSDS) (TH)</a></td>
+    <td><a href="PDF/terrafloor-ct1/MSDS_Terrafloor-CT1 Part A_TH.pdf" target="_blank">ดาวน์โหลด</a></td>
+  </tr>
+  <tr>
+    <td><a href="PDF/terrafloor-ct1/MSDS_Terrafloor-CT1 Part A.pdf" target="_blank">TERRAFLOOR-CT1_PART-A (MSDS) (EN)</a></td>
+    <td><a href="PDF/terrafloor-ct1/MSDS_Terrafloor-CT1 Part A.pdf" target="_blank">ดาวน์โหลด</a></td>
+  </tr>
+  <tr>
+    <td><a href="PDF/terrafloor-ct1/MSDS_Terrafloor-CT1 Part B_TH.pdf" target="_blank">TERRAFLOOR-CT1_PART-B (MSDS) (TH)</a></td>
+    <td><a href="PDF/terrafloor-ct1/MSDS_Terrafloor-CT1 Part B_TH.pdf" target="_blank">ดาวน์โหลด</a></td>
+  </tr>
+  <tr>
+    <td><a href="PDF/terrafloor-ct1/MSDS_Terrafloor-CT1 Part B.pdf" target="_blank">TERRAFLOOR-CT1_PART-A (MSDS) (EN)</a></td>
+    <td><a href="PDF/terrafloor-ct1/MSDS_Terrafloor-CT1 Part B.pdf" target="_blank">ดาวน์โหลด</a></td>
+  </tr>
+</table></center>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+<div class="row">
+  <div class="column4">
+    <h3>เกี่ยวกับวิสต้า อินโน</h3>
+    <p><a href="#"> - โปรโมชั่น</a></p>
+    <p><a href="#"> - ข่าวสารและกิจกรรม</a><p>
+    <p><a href="#"> - ติดต่อเรา</a></p>
+  </div>
+  <div class="column4">
+    <h3>อื่นๆ วิสต้า อินโน</h3>
+    <p><a href="ดาวโหลดเอกสาร.html"> - ดาวโหลดเอกสาร</a></p>
+    <p><a href="#"> - วิดีโอแนะนำผลิตภัณฑ์</a><p>
+    <p><a href="#"> - วิดีโอการใช้งานผลิตภัณฑ์</a></p>
+  </div>
+    <div class="column5">
+      <h3>ติดตามเรา</h3>
+      <p><i class="fa fa-facebook-official w3-hover-opacity"><a href="https://www.facebook.com/vistainnothailand?locale=th_TH" style="text-decoration: none;"target="_blank"> &nbsp;VISTA INNO Thailand </a></i><p>
+      <p> <i class="fa fa-youtube w3-hover-opacity"><a href="https://youtube.com/@vistainnoepoxycoating3210?si=lFcbUeIB7TH1X-La" style="text-decoration: none;"target="_blank"> &nbsp;VISTA INNO Thailand</a> </i></p>
+    </div>
+    <div class="column5">
+      <h3>บริษัท วิสต้า อินโน จำกัด</h3>
+      <p><i class="fa fa-map-marker w3-hover-opacity"><a href="https://www.google.com/maps/search/%E0%B8%A7%E0%B8%B4%E0%B8%AA%E0%B8%95%E0%B9%89%E0%B8%B2+%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B9%82%E0%B8%99/@13.5527745,100.6804598,17z?entry=ttu" style="text-decoration: none;"target="_blank"> &nbsp;ที่อยู่: 881 หมู่ที่ 2 นิคมอุตสาหกรรมบางปูเหนือ ตำบล แพรกษา อำเภอเมืองสมุทรปราการ สมุทรปราการ 10280 </a></i></p>
+      <a href="https://www.google.com/maps/search/%E0%B8%A7%E0%B8%B4%E0%B8%AA%E0%B8%95%E0%B9%89%E0%B8%B2+%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B9%82%E0%B8%99/@13.5527745,100.6804598,17z?entry=ttu" style="text-decoration: none;"target="_blank"><img class="w3-image w3-round-large" src="image/Screenshot 2024-01-03 163232.png" alt="Buildings" width="80%"></a>
+    </div>
+</div>
+
+</body>
+</html>
